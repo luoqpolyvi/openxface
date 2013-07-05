@@ -34,8 +34,8 @@ A native app is a normal mobile native app but could be encapsulated and be mana
 An app typically has following properties,
 
 1. **type**, indicates what type the app is,
-	* xapp, web app
-	* napp, native app
+   * xapp, web app
+   * napp, native app
 2. **id**, unique id for the app
 3. **entry**, the main entry. Depends on what type it is, the value is defined by following,
    * web app
