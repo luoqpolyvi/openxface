@@ -1,3 +1,8 @@
+---
+layout: default
+title: openxface
+---
+
 # xFace 应用
 
 ### xFace 应用介绍

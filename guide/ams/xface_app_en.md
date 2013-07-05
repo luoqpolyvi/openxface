@@ -13,7 +13,9 @@ title: openxface
 A hybrid application is a native mobile application that provides most of its content through Html/CSS/JS, but also tends to contain standard native user interface. It combines the best elements of native and Html app. xFace runtime supports such hybrid apps and furthermore extends the concept.
 
 ## Introduction
+
 ###App Types
+
 #### Web app
 A web app is totally built by Html/CSS/Javascript, but is also able to access device native features.
 
@@ -32,8 +34,8 @@ A native app is a normal mobile native app but could be encapsulated and be mana
 An app typically has following properties,
 
 1. **type**, indicates what type the app is,
-      * xapp, web app
-      * napp, native app
+	* xapp, web app
+	* napp, native app
 2. **id**, unique id for the app
 3. **entry**, the main entry. Depends on what type it is, the value is defined by following,
    * web app
@@ -67,6 +69,7 @@ The app.xml is configured with above properties and gets packed together with th
 {:lang="xml"}
 
 #### The differences between web app and native app
-The significant differences are:
+The significant differences are,
+
 1. Perference *running_mode* is only applied to web app
 2. Some other preferences specific to native app are further documented at [Native Apps Management](www.polyvi.net:8012/doc/guide/xface/ams/native_apps_management.md)
