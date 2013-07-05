@@ -34,8 +34,6 @@ ol, ul {
 	list-style: none;
 }
 
-ul { list-style-position: inside; list-style: disc;}
-
 blockquote, q {
 	quotes: none;
 }
@@ -336,11 +334,11 @@ blockquote {
 
 ul li {
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 ol li {
-  list-style: decimal inside;
+  list-style: decimal;
   padding-left: 7px;
 }
 
