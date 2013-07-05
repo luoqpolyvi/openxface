@@ -2,7 +2,7 @@
 layout: default
 title: openxface
 ---
-Use numbered headers: true
+
 
 # xFace Application
 
