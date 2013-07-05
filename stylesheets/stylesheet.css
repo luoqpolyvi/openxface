@@ -33,6 +33,9 @@ body {
 ol, ul {
 	list-style: none;
 }
+
+ul { list-style-position: inside; list-style: disc;}
+
 blockquote, q {
 	quotes: none;
 }
