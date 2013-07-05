@@ -30,8 +30,8 @@ Native app 是普通的移动原生应用，可由xFace AMS管理.
 xFace app抽象出一些属性, 主要如下:
 
 1. **type** *必需*, 表明应用的类型
-   *   xapp (web app)
-   *   napp (native app).
+   * xapp (web app)
+   * napp (native app).
 2. **id** *必需*, 应用的唯一标识符.
 3. **entry** *必需*, 应用的入口地址, 不同类型的应用设置不一样
    * web app
@@ -83,6 +83,7 @@ xFace app抽象出一些属性, 主要如下:
 {:lang="c++"}
 
 #### web app 和native app 的差异
-native app.xml 与 web app.xml 的区别在于:
+native app.xml 与 web app.xml 的区别在于
+
 1. web app有运行模式running_mode, 取值为local或者online.
 1. native app 特有配置请参考[Native Apps Management](www.polyvi.net:8012/doc/guide/xface/ams/native_apps_management.md)
